@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MobileMenu</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css?v=3" asp-append-version="true"/>
+</head>
+<body>
+    <div class="container pt-5">
+        <div>
+            <div class="page-tele2">
+                <img src="https://msk.tele2.ru/static/media/logo.6be3493a.svg" />
+            </div>
+
+            <div class="page-header">
+                <span class="h2 Tele2DisplaySerifWebSHORTBold">Мобильное меню</span>
+            </div>
+
+        </div>
+
+        <div class="input-json">
+            <div class="form-group">
+                <label class="h4" for="exampleFormControlTextarea1">Настройка</label>
+
+                <div class="page-buttons">
+                    <button type="button" class="btn btn-outline-dark" onclick="update();">Обновить</button>
+                    <button type="button" class="btn btn-outline-dark" onclick="copy();">Копировать</button>
+                </div>
+
+                <textarea class="form-control" id="inp" rows="6" onpaste="myFunction()">@ViewBag.json</textarea>
+            </div>
+        </div>
+
+        <div id="result">
+            @await Html.PartialAsync("Menu", ViewBag.list as List<MenuClass>)
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>
+
+
+

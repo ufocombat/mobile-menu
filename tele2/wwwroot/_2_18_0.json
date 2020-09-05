@@ -1,0 +1,104 @@
+[
+    {
+        "name": "\u0412\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u0438",
+        "slug": "opportunities",
+        "description": "",
+        "template": "horizontal",
+        "enabled": true,
+        "minAppVer": null,
+        "maxAppVer": null,
+        "controls": [
+            {
+                "name": "\u0423\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0443\u0441\u043B\u0443\u0433\u0430\u043C\u0438",
+                "slug": "serviceManagement",
+                "description": "",
+                "enabled": true,
+                "minAppVer": null,
+                "maxAppVer": null,
+                "clientTypes": ["B2C","B2B"],
+                "icon": "https://api.tele2.ru/api/media/asset?mediaId=m3030021",
+                "actionType": "openScreen",
+                "actionObj": "tele2-app://services?status=CONNECTED",
+                "weight": 1
+            },
+            {
+                "name": "\u0412\u044B\u0433\u043E\u0434\u043D\u043E \u0432\u043C\u0435\u0441\u0442\u0435",
+                "slug": "together",
+                "description": "",
+                "enabled": true,
+                "minAppVer": null,
+                "maxAppVer": null,
+                "clientTypes": ["B2C","B2B"],
+                "icon": "https://api.tele2.ru/api/media/asset?mediaId=m3030019",
+                "actionType": "openScreen",
+                "actionObj": "tele2-app://together",
+                "weight": 2
+            },
+            {
+                "name": "\u041C\u0430\u0440\u043A\u0435\u0442 Tele2",
+                "slug": "marketTele2",
+                "description": "",
+                "enabled": true,
+                "minAppVer": null,
+                "maxAppVer": null,
+                "clientTypes": ["B2C","B2B"],
+                "icon": "https://api.tele2.ru/api/media/asset?mediaId=m3030023",
+                "actionType": "openSpecialWebview",
+                "actionObj": "https://tele2.ru/stock-exchange-app/internet?utm_source=my_tele2&utm_medium=app&mode=webView",
+                "weight": 3
+            },
+	    {
+                "name": "\u0423\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0413\u0411",
+                "slug": "",
+                "description": "",
+                "enabled": true,
+                "minAppVer": null,
+                "maxAppVer": null,
+                "clientTypes": ["B2C","B2B"],
+                "icon": "https://api.tele2.ru/api/media/asset?mediaId=m3120009",
+                "actionType": "openScreen",
+                "actionObj": "tele2-app://gbcentre",
+                "weight": 4
+            }
+        ],
+        "weight": 1
+    },
+    {
+        "name": "\u0412\u0435\u0440\u0442\u0438\u043A\u0430\u043B\u044C\u043D\u043E\u0435 \u043C\u0435\u043D\u044E",
+        "slug": "verticalList",
+        "description": "",
+        "template": "vertical",
+        "enabled": true,
+        "minAppVer": null,
+        "maxAppVer": null,
+        "controls": [
+            {
+                "name": "\u041F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u044F \u0438 \u0440\u043E\u0443\u043C\u0438\u043D\u0433",
+                "slug": "roaming",
+                "description": "\u0421\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C \u0438\u043D\u0442\u0435\u0440\u043D\u0435\u0442\u0430 \u0438 \u0437\u0432\u043E\u043D\u043A\u043E\u0432 \u0432 \u043F\u043E\u0435\u0437\u0434\u043A\u0435",
+                "enabled": true,
+                "minAppVer": null,
+                "maxAppVer": null,
+                "clientTypes": ["B2C","B2B"],
+                "icon": "https://api.tele2.ru/api/media/asset?mediaId=m3030020",
+                "actionType": "openScreen",
+                "actionObj": "tele2-app://roaming",
+                "weight": 1
+            },
+            {
+                "name": "\u041F\u043E\u043C\u043E\u0449\u044C",
+                "slug": "support",
+                "description": "\u0421\u043B\u0443\u0436\u0431\u0430 \u043B\u0438\u0447\u043D\u043E\u0439 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438",
+                "enabled": true,
+                "minAppVer": null,
+                "maxAppVer": null,
+                "clientTypes": ["B2C","B2B"],
+                "icon": "https://api.tele2.ru/api/media/asset?mediaId=m3030018",
+                "actionType": "openScreen",
+                "actionObj": "tele2-app://help",
+                "weight": 2
+            }
+        ],
+        "weight": 2
+    }
+]

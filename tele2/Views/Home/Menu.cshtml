@@ -1,0 +1,46 @@
+﻿@model List<MenuClass>
+
+@foreach (MenuClass item in Model)
+{
+    <div class="menu-card">
+        <div class="h4">
+            @item.name
+        </div>
+        <div class="menu-controls">
+            @if (item.template == "horizontal")
+            {
+                @foreach (MenuItemClass m in item.controls)
+                {
+                    <div class="card-coll">
+                        <div class="card-control">
+                            <img src="@m.icon" class="menu-icon" alt="...">
+                            <div class="body-control">
+                                <h5 class="control-title">@m.name</h5>
+                                <p class="card-text">@m.description</p>
+                            </div>
+                        </div>
+                        <p class="actionObj-text">@m.actionObj</p>
+                    </div>
+                }
+            }
+            else
+            {
+                @foreach (MenuItemClass m in item.controls)
+                {
+                    <div class="line-control">
+                        <div class="line-card">
+                            <div class="line-image">
+                                <img src="@m.icon" class="line-icon" alt="...">
+                            </div>
+                            <div class="line-control-body">
+                                <div class="line-title">@m.name</div>
+                                <div class="line-text">@m.description</div>
+                            </div>
+                        </div>
+                        <p class="actionObj-text">@m.actionObj</p>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+}

@@ -1,0 +1,67 @@
+[
+        {
+            "name": "Возможности",
+            "description": "",
+            "slug": "opportunities",
+            "template": "horizontal",
+            "controls": [
+                {
+                    "name": "Управление услугами",
+                    "description": "",
+                    "slug": "serviceManagement",
+                    "icon": "https://api.tele2.ru/api/media/asset?mediaId=m3030021",
+                    "actionType": "openScreen",
+                    "actionObj": "tele2-app://services?status=CONNECTED"
+                },
+                {
+                    "name": "Выгодно вместе",
+                    "description": "",
+                    "slug": "together",
+                    "icon": "https://api.tele2.ru/api/media/asset?mediaId=m3030019",
+                    "actionType": "openScreen",
+                    "actionObj": "tele2-app://together"
+                },
+                {
+                    "name": "Маркет Tele2",
+                    "description": "",
+                    "slug": "marketTele2",
+                    "icon": "https://api.tele2.ru/api/media/asset?mediaId=m3030023",
+                    "actionType": "openSpecialWebview",
+                    "actionObj": "https://rostov.tele2.ru/stock-exchange-app/internet?utm_source=my_tele2&utm_medium=app&mode=webView"
+                }
+            ]
+        },
+        {
+            "name": "Вертикальное меню",
+            "description": "",
+            "slug": "verticalList",
+            "template": "vertical",
+            "controls": [
+                {
+                    "name": "Путешествия и роуминг",
+                    "description": "Стоимость интернета и звонков в поездке",
+                    "slug": "roaming",
+                    "icon": "https://api.tele2.ru/api/media/asset?mediaId=m3030020",
+                    "actionType": "openScreen",
+                    "actionObj": "tele2-app://roaming"
+                },
+                {
+                    "name": "Помощь",
+                    "description": "Служба личной поддержки",
+                    "slug": "support",
+                    "icon": "https://api.tele2.ru/api/media/asset?mediaId=m3030018",
+                    "actionType": "openScreen",
+                    "actionObj": "tele2-app://help"
+                }
+                ,
+                {
+                    "name": "Помощь 2020",
+                    "description": "Служба личной поддержки",
+                    "slug": "support",
+                    "icon": "https://api.tele2.ru/api/media/asset?mediaId=m3030018",
+                    "actionType": "openScreen",
+                    "actionObj": "tele2-app://help"
+                }
+            ]
+        }
+    ]
