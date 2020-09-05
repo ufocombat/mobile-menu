@@ -4,11 +4,10 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using tele2.Models;
 using Microsoft.AspNetCore.Hosting;
 using System.Text.Json;
-using System.Text.Json.Serialization;
+
 
 namespace tele2.Controllers
 {
