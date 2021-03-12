@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{888B4E8E-0759-4C71-B215-B5E5E3A4D5A0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="tele2/Models/MenuClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="tele2/Controllers/HomeController.cs">
     <Files>
       <File FileName="tele2/Models/MenuClass.cs" Line="9" Column="34" IsPinned="True" />
-      <File FileName="tele2/Models/MenuItemClass.cs" Line="7" Column="6" />
+      <File FileName="tele2/Models/MenuItemClass.cs" />
       <File FileName="tele2/Controllers/HomeController.cs" Line="46" Column="1" />
-      <File FileName="tele2/wwwroot/js/site.js" Line="11" Column="23" />
+      <File FileName="tele2/wwwroot/js/site.js" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,10 +14,10 @@
               <Node name="Dependencies" expanded="True">
                 <Node name="FrameworkReferences" expanded="True" />
               </Node>
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="MenuClass.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
               </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
               </Node>
