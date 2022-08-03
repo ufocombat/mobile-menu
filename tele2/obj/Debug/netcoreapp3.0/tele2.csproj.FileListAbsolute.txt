@@ -1,6 +1,5 @@
 /Users/ufocombat/Projects/tele2/tele2/bin/Debug/netcoreapp3.0/appsettings.Development.json
 /Users/ufocombat/Projects/tele2/tele2/bin/Debug/netcoreapp3.0/appsettings.json
-/Users/ufocombat/Projects/tele2/tele2/bin/Debug/netcoreapp3.0/Properties/launchSettings.json
 /Users/ufocombat/Projects/tele2/tele2/bin/Debug/netcoreapp3.0/tele2.deps.json
 /Users/ufocombat/Projects/tele2/tele2/bin/Debug/netcoreapp3.0/tele2.runtimeconfig.json
 /Users/ufocombat/Projects/tele2/tele2/bin/Debug/netcoreapp3.0/tele2.runtimeconfig.dev.json
@@ -8,7 +7,6 @@
 /Users/ufocombat/Projects/tele2/tele2/bin/Debug/netcoreapp3.0/tele2.pdb
 /Users/ufocombat/Projects/tele2/tele2/bin/Debug/netcoreapp3.0/tele2.Views.dll
 /Users/ufocombat/Projects/tele2/tele2/bin/Debug/netcoreapp3.0/tele2.Views.pdb
-/Users/ufocombat/Projects/tele2/tele2/obj/Debug/netcoreapp3.0/tele2.csprojAssemblyReference.cache
 /Users/ufocombat/Projects/tele2/tele2/obj/Debug/netcoreapp3.0/tele2.AssemblyInfoInputs.cache
 /Users/ufocombat/Projects/tele2/tele2/obj/Debug/netcoreapp3.0/tele2.AssemblyInfo.cs
 /Users/ufocombat/Projects/tele2/tele2/obj/Debug/netcoreapp3.0/tele2.csproj.CoreCompileInputs.cache
@@ -36,3 +34,6 @@
 /Users/ufocombat/Projects/tele2/tele2/obj/Debug/netcoreapp3.0/tele2.genruntimeconfig.cache
 /Users/ufocombat/Projects/tele2/tele2/obj/Debug/netcoreapp3.0/tele2.csproj.CopyComplete
 /Users/ufocombat/Projects/tele2/tele2/obj/Debug/netcoreapp3.0/Razor/Views/Home/Menu.cshtml.g.cs
+/Users/ufocombat/Projects/tele2/tele2/obj/Debug/netcoreapp3.0/tele2.csproj.AssemblyReference.cache
+/Users/ufocombat/Projects/tele2/tele2/obj/Debug/netcoreapp3.0/tele2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ufocombat/Projects/tele2/tele2/obj/Debug/netcoreapp3.0/scopedcss/bundle/tele2.styles.css
